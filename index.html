@@ -24,7 +24,11 @@
 
     <!--====== Owl Carousel2 ======-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!--====== AOS ======-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!--====== Bootstrap CSS ======-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -58,7 +62,7 @@
 <!--====== PRELOADER PART ENDS ======-->
 
 <!--====== HEADER PART START ======-->
-<section class="header_area">
+<!--<section class="header_area">
     <div class="header_navbar">
         <div class="container">
             <div class="row">
@@ -96,16 +100,16 @@
                                     <a class="page-scroll" href="#admission-flow">Quy Trình</a>
                                 </li>
                             </ul>
-                        </div> <!-- navbar collapse -->
-                    </nav> <!-- navbar -->
+                        </div> &lt;!&ndash; navbar collapse &ndash;&gt;
+                    </nav> &lt;!&ndash; navbar &ndash;&gt;
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </div> <!-- header navbar -->
+            </div> &lt;!&ndash; row &ndash;&gt;
+        </div> &lt;!&ndash; container &ndash;&gt;
+    </div> &lt;!&ndash; header navbar &ndash;&gt;
 
     <div id="home" class="header_slider">
         <div class="single_slider bg_cover d-flex align-items-center"
-             style="background: url('assets/images/tuyensinhhotungmau/banner.png') no-repeat center center; background-size: cover;">
+             style="background-color: rgb(255, 255, 255, 0.8);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-md-10">
@@ -117,14 +121,86 @@
                                 dục Quốc tế</p>
                             <a href="#" target="_blank" class="main-btn wow fadeInLeftBig"
                                data-wow-duration="1.3s" data-wow-delay="0.8s">ĐĂNG KÝ TUYỂN SINH</a>
-                        </div> <!-- slider content -->
+                        </div> &lt;!&ndash; slider content &ndash;&gt;
                     </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- single slider -->
-    </div> <!-- header slider -->
-</section>
+                </div> &lt;!&ndash; row &ndash;&gt;
+            </div> &lt;!&ndash; container &ndash;&gt;
+        </div> &lt;!&ndash; single slider &ndash;&gt;
+    </div> &lt;!&ndash; header slider &ndash;&gt;
+</section>-->
 <!--====== HEADER PART ENDS ======-->
+
+<section class="header_area">
+    <!-- NAVBAR -->
+    <div class="header_navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/tuyensinhhotungmau/logo.png" alt="Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                            <ul id="nav" class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="page-scroll" href="#about">Giới Thiệu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#services">Thông Tin</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#tuition">Học Phí</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#policy">Chính Sách Ưu Đãi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#modern-testimonials">Phản Hồi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#admission-flow">Quy Trình</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BANNER -->
+    <div class="hero-area">
+        <div class="single_slider">
+            <div class="container h-100">
+                <div class="row h-100 align-items-start">
+                    <div class="col-lg-6 col-md-12" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="slider_content text-white">
+                            <h1 class="slider_title">
+                                THPT HỒ TÙNG MẬU <br>THANH XUÂN</span>
+                            </h1>
+                            <p>"GIÁO DỤC DỰA TRÊN ĐIỂM MẠNH"</p>
+                            <a href="#register" class="main-btn">Đăng ký ngay</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="hero_img_wrapper text-center">
+                            <img src="assets/images/tuyensinhhotungmau/2T8A4442.png" alt="Banner" class="img-fluid hero-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!--====== 1. ABOUT PART START ======-->
 <section id="about" class="about_area pt-60">
@@ -134,10 +210,16 @@
                  style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.5s; animation-name: fadeInLeftBig;">
                 <h3 class="sub_title"><span>1.</span> Giới Thiệu</h3>
                 <h4 class="main_title">Trường THPT Hồ Tùng Mậu</h4>
-                <p>Trường THPT Hồ Tùng Mậu được thành lập năm 1997 bởi nhà giáo Tô Minh Tiếp với quan điểm “GIÁO DỤC DỰA
-                    TRÊN ĐIỂM MẠNH”. Với quan điểm này, trường THPT Hồ Tùng Mậu không chỉ giúp học sinh trau dồi kiến
-                    thức mà còn khai thác và phát huy tối đa những khả năng và tiềm năng riêng biệt.</p>
-                <p>Địa chỉ tại: Số 18 Khương Hạ, Phường Khương Đình, quận Thanh Xuân, TP. Hà Nội.</p>
+                <p>Trường THPT Hồ Tùng Mậu - Số 18 Khương Hạ, Phường Khương Đình, quận Thanh Xuân, TP. Hà Nội. Được
+                    thành lập năm 1997, bởi nhà giáo Tô Minh Tiếp với quan điểm “GIÁO DỤC DỰA TRÊN ĐIỂM MẠNH”. Theo đó,
+                    trường THPT Hồ Tùng Mậu không chỉ tập
+                    trung trau dồi kiến thức mà còn chú trọng phát hiện và nuôi dưỡng ĐIỂM MẠNH của học sinh thông qua
+                    chương trình "nhà trường khác biệt". Việc học sinh hiểu và phát huy ĐIỂM MẠNH của bản thân khiến các
+                    con trân trọng giá trị của bản thân, trở nên tự tin và tự chủ trong việc lựa chọn nghề nghiệp phù hợp
+                    với sở thích, năng lực và là nền tảng cho một cuộc sống viên mãn và hạnh phúc.</p>
+                <!--
+                                <p>Địa chỉ tại: Số 18 Khương Hạ, Phường Khương Đình, quận Thanh Xuân, TP. Hà Nội.</p>
+                -->
                 <!--<a href="#" class="main-btn">Read More</a>-->
             </div> <!-- about content -->
         </div>
@@ -243,17 +325,16 @@
 <!--====== 2. INFO ADMISSION START ======-->
 <section id="services" class="services_area pt-50 pb-40">
     <div class="container">
-        <div class="col-lg-12">
+        <div class="col-lg-12 mb-5">
             <div class="services_content wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
                 <h3 class="sub_title"><span>2.</span> Thông Tin Chi Tiết</h3>
             </div>
         </div>
 
-        <div class="row align-items-center mt-4">
-            <!-- BÊN TRÁI -->
-            <div class="col-lg-6">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
                 <div class="row">
-                    <div class="col-md-6 mb-4">
+                    <div class="col-lg-4 mb-4">
                         <div class="single_services h-100">
                             <div class="services_icon">
                                 <i class="lni lni-ruler-pencil"></i>
@@ -264,7 +345,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mb-4">
+                    <div class="col-lg-4 mb-4">
                         <div class="single_services h-100">
                             <div class="services_icon">
                                 <i class="lni lni-users"></i>
@@ -275,7 +356,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mb-4">
+                    <div class="col-lg-4 mb-4">
                         <div class="single_services">
                             <div class="services_icon">
                                 <i class="lni lni-stats-up"></i>
@@ -293,12 +374,12 @@
             </div>
 
             <!-- BÊN PHẢI -->
-            <div class="col-lg-6 d-flex align-items-start">
+            <!--<div class="col-lg-6 d-flex align-items-start">
                 <div class="about_image w-100">
                     <img src="assets/images/tuyensinhhotungmau/thongtin.png" alt="Ảnh minh họa"
                          class="img-fluid w-100 rounded shadow-sm">
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>
@@ -363,7 +444,7 @@
             </div>
         </div>
         <div class="row justify-content-center mt-50">
-            <div class="col-lg-12">
+            <div class="col-lg-12" style="padding: 0 15px;">
                 <h3 class="text-center mb-40 section-title" style="color: #273981;">ƯU ĐÃI HỌC BỔNG</h3>
 
                 <div class="row g-4">
@@ -511,8 +592,9 @@
             <!-- Video 1 -->
             <div class="col-lg-4 col-md-6 mb-3">
                 <div class="video-card h-100">
-                    <div class="video-thumbnail" onclick="openVideoModal('https://www.youtube.com/embed/05JRjXL5bJI')">
-                        <img src="https://img.youtube.com/vi/05JRjXL5bJI/maxresdefault.jpg" alt="Ainomotor" class="img-fluid">
+                    <div class="video-thumbnail" onclick="openVideoModal('https://www.youtube.com/embed/eI0BuDCV7CM')">
+                        <img src="https://img.youtube.com/vi/eI0BuDCV7CM/maxresdefault.jpg" alt="Ainomotor"
+                             class="img-fluid">
                         <div class="play-button">
                             <i class="fas fa-play"></i>
                         </div>
@@ -526,8 +608,9 @@
             <!-- Video 2 -->
             <div class="col-lg-4 col-md-6 mb-3">
                 <div class="video-card h-100">
-                    <div class="video-thumbnail" onclick="openVideoModal('https://www.youtube.com/embed/Z3HLKC6g7SE')">
-                        <img src="https://img.youtube.com/vi/Z3HLKC6g7SE/maxresdefault.jpg" alt="HN 36 phố phường" class="img-fluid">
+                    <div class="video-thumbnail" onclick="openVideoModal('https://www.youtube.com/embed/04vH6JvL5zg')">
+                        <img src="https://img.youtube.com/vi/04vH6JvL5zg/maxresdefault.jpg" alt="HN 36 phố phường"
+                             class="img-fluid">
                         <div class="play-button">
                             <i class="fas fa-play"></i>
                         </div>
@@ -541,8 +624,9 @@
             <!-- Video 3 -->
             <div class="col-lg-4 col-md-6 mb-3">
                 <div class="video-card h-100">
-                    <div class="video-thumbnail" onclick="openVideoModal('https://www.youtube.com/embed/1OXeGXM-Qgs')">
-                        <img src="https://img.youtube.com/vi/1OXeGXM-Qgs/maxresdefault.jpg" alt="Chuyên đề Toán học" class="img-fluid">
+                    <div class="video-thumbnail" onclick="openVideoModal('https://www.youtube.com/embed/v0rLvhJzi1g')">
+                        <img src="https://img.youtube.com/vi/v0rLvhJzi1g/maxresdefault.jpg" alt="Chuyên đề Toán học"
+                             class="img-fluid">
                         <div class="play-button">
                             <i class="fas fa-play"></i>
                         </div>
@@ -562,7 +646,9 @@
     <div class="modal-content">
         <button class="close-button" onclick="closeVideoModal()">&times;</button>
         <div class="video-container">
-            <iframe id="videoFrame" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="videoFrame" src="" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -600,7 +686,8 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <p class="testimonial-text">"Môi trường học tập tuyệt vời giúp con tôi phát triển toàn diện. Giáo viên tận tâm và phương pháp giảng dạy sáng tạo."</p>
+                            <p class="testimonial-text">"Môi trường học tập tuyệt vời giúp con tôi phát triển toàn diện.
+                                Giáo viên tận tâm và phương pháp giảng dạy sáng tạo."</p>
                             <h5 class="testimonial-name">Chị Nguyễn Thị Hương</h5>
                             <span class="testimonial-position">Phụ huynh lớp 10A2</span>
                         </div>
@@ -619,7 +706,8 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star-half-alt"></i>
                             </div>
-                            <p class="testimonial-text">"Con tôi tự tin hơn hẳn sau khi học tại trường. Chương trình ngoại khóa phong phú giúp trẻ phát triển kỹ năng mềm rất tốt."</p>
+                            <p class="testimonial-text">"Con tôi tự tin hơn hẳn sau khi học tại trường. Chương trình
+                                ngoại khóa phong phú giúp trẻ phát triển kỹ năng mềm rất tốt."</p>
                             <h5 class="testimonial-name">Anh Trần Minh Đức</h5>
                             <span class="testimonial-position">Phụ huynh lớp 11B1</span>
                         </div>
@@ -638,7 +726,8 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <p class="testimonial-text">"Em yêu cách dạy sáng tạo của các thầy cô. Mỗi ngày đến trường đều là một trải nghiệm thú vị và bổ ích."</p>
+                            <p class="testimonial-text">"Em yêu cách dạy sáng tạo của các thầy cô. Mỗi ngày đến trường
+                                đều là một trải nghiệm thú vị và bổ ích."</p>
                             <h5 class="testimonial-name">Nguyễn Thu Hà</h5>
                             <span class="testimonial-position">Học sinh lớp 12A1</span>
                         </div>
@@ -657,7 +746,8 @@
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i>
                             </div>
-                            <p class="testimonial-text">"Thư viện với nhiều sách hay, phòng lab hiện đại. Bạn bè và thầy cô luôn hỗ trợ khi em cần giúp đỡ."</p>
+                            <p class="testimonial-text">"Thư viện với nhiều sách hay, phòng lab hiện đại. Bạn bè và thầy
+                                cô luôn hỗ trợ khi em cần giúp đỡ."</p>
                             <h5 class="testimonial-name">Lê Văn Tú</h5>
                             <span class="testimonial-position">Học sinh lớp 10A3</span>
                         </div>
@@ -676,7 +766,8 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <p class="testimonial-text">"Chương trình hướng nghiệp giúp em xác định được đam mê. Em đã tìm thấy định hướng tương lai rõ ràng nhờ trường."</p>
+                            <p class="testimonial-text">"Chương trình hướng nghiệp giúp em xác định được đam mê. Em đã
+                                tìm thấy định hướng tương lai rõ ràng nhờ trường."</p>
                             <h5 class="testimonial-name">Phạm Thị Lan</h5>
                             <span class="testimonial-position">Học sinh lớp 11B2</span>
                         </div>
@@ -767,7 +858,8 @@
 <!--====== 7. ADMISSION TIMELINE ENDS ======-->
 
 <!--====== FOOTER PART START ======-->
-<section id="contact" class="footer_area bg_cover" style="background-image: url(assets/images/tuyensinhhotungmau/8e74919314d1d28f8bc0.jpg)">
+<section id="contact" class="footer_area bg_cover"
+         style="background-image: url(assets/images/tuyensinhhotungmau/8e74919314d1d28f8bc0.jpg)">
     <div class="container">
         <div class="footer_widget pt-50 pb-40">
             <div class="row">
@@ -782,13 +874,13 @@
                             <h4 class="footer_title">Liên hệ phòng tuyển sinh</h4>
                             <ul class="link">
                                 <li><a href="#">
-                                    <i class="fas fa-clipboard-check"></i> Số 18 Khương Hạ, quận Thanh Xuân, Hà Nội
+                                    <i class="fas fa-clipboard-check"></i> Số 18 Khương Hạ, Thanh Xuân, Hà Nội
                                 </a></li>
                                 <li><a href="#">
-                                    <i class="fas fa-clipboard-check"></i> 0911.366.082 - 0945.081.874
+                                    <i class="fas fa-clipboard-check"></i>  0945.081.874 - 0911.366.082
                                 </a></li>
                                 <li><a href="#">
-                                    <i class="fas fa-clipboard-check"></i> test@gmail.com
+                                    <i class="fas fa-clipboard-check"></i> c3hotungmau@hanoi.edu.vn
                                 </a></li>
                             </ul>
                         </div>
@@ -799,7 +891,8 @@
                         <div class="footer_link mt-45">
                             <h4 class="footer_title">Theo dõi chúng tôi</h4>
                             <ul class="link">
-                                <li><i class="fas fa-clipboard-check"></i> <i class="fas fa-clipboard-check"></i> <i class="fas fa-clipboard-check"></i></li>
+                                <li><i class="fas fa-clipboard-check"></i> <i class="fas fa-clipboard-check"></i> <i
+                                        class="fas fa-clipboard-check"></i></li>
                             </ul>
                         </div>
                     </div> <!-- footer link wrapper -->
@@ -847,6 +940,15 @@
 <!-- Owl Carousel JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+        duration: 1000,
+        easing: 'ease-in-out',
+    });
+</script>
 
 </body>
 
