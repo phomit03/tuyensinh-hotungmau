@@ -1,32 +1,24 @@
+// JavaScript Initialization
 $(document).ready(function(){
-    $(".testimonial-carousel").owlCarousel({
+    $('.testimonial-slider').owlCarousel({
+        items: 1,
         loop: true,
-        margin: 30,
+        margin: 0,
         nav: true,
-        dots: true, // Bật dots navigation
+        dots: true,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 3000, // 8 giây tự động chuyển
         autoplayHoverPause: true,
         smartSpeed: 800,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
         responsive: {
             0: {
-                items: 1,
-                nav: false,
-                dots: true
-            },
-            768: {
-                items: 2,
-                dots: true
+                nav: false
             },
             992: {
-                items: 3,
-                nav: true,
-                dots: true
+                nav: true
             }
-        },
-        navText: [
-            '<i class="fas fa-chevron-left"></i>',
-            '<i class="fas fa-chevron-right"></i>'
-        ]
+        }
     });
 });

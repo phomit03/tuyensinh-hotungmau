@@ -15,10 +15,10 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll < 20) {
             $(".header_navbar").removeClass("sticky");
-            $(".header_navbar img").attr("src", "assets/images/tuyensinhhotungmau/logo.png");
+            $(".header_navbar img").attr("src", "assets/images/tuyensinhhotungmau/favicon.png");
         } else {
             $(".header_navbar").addClass("sticky");
-            $(".header_navbar img").attr("src", "assets/images/tuyensinhhotungmau/logo-dark.png");
+            $(".header_navbar img").attr("src", "assets/images/tuyensinhhotungmau/favicon-dark.png");
         }
     });
 
