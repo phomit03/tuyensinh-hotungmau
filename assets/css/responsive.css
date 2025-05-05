@@ -25,7 +25,7 @@
     .slider_content {
         z-index: 2;
         position: relative;
-        padding-top: 10vh;
+        margin-top: 5vh;
     }
 
     .slider_content .slider_title {
@@ -150,7 +150,7 @@
 
 @media (max-width: 376px) {
     .slider_content {
-        padding-top: 10vh !important;
+        margin-top: 5vh !important;
     }
 
     .hero-area .single_slider {
