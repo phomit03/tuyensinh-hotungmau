@@ -2267,7 +2267,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     right: 30px;
     bottom: 50px;
     background-color: #ffc107;
-    color: #273981;
+    color: white;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -2290,7 +2290,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 .dangky-fixed:hover {
     background-color: #ffb000;
     transform: translateY(-3px);
-    color: white;
+    color: #273981;
 }
 
 
