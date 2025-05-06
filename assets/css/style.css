@@ -1308,6 +1308,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
+    color: #273981;
 }
 
 
