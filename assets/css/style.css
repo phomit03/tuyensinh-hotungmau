@@ -1282,11 +1282,11 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     color: #fff;
     position: fixed;
     right: 30px;
-    bottom: 30px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 5px;
+    bottom: 120px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
     background-color: #273981;
     text-align: center;
     z-index: 99;
@@ -2251,3 +2251,45 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     color: white !important;
     margin-right: 8px;
 }
+
+/*************REGISTER ADMISSION***********/
+@keyframes shake {
+    0%, 100% { transform: rotate(0deg); }
+    20% { transform: rotate(-10deg); }
+    40% { transform: rotate(10deg); }
+    60% { transform: rotate(-5deg); }
+    80% { transform: rotate(5deg); }
+}
+
+.dangky-fixed {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    background-color: #ffc107;
+    color: #273981;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    animation: pulseGlow 3s infinite;
+}
+
+.dangky-fixed i {
+    font-size: 20px;
+    animation: shake 2s infinite;
+}
+
+.dangky-fixed:hover {
+    background-color: #ffb000;
+    transform: translateY(-3px);
+    color: white;
+}
+
+
