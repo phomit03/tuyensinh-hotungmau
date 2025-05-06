@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 html, body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif !important;
     font-weight: normal;
     font-style: normal;
-    color: #677284;
+    color: #002147;
     overflow-x: hidden;
     max-width: 100%;
 }
@@ -63,7 +63,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     color: #002147;
     margin: 0px;
@@ -103,7 +102,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color: #677284;
+    color: #002147;
     margin: 0px;
 }
 
@@ -615,7 +614,7 @@ p {
 
 .navbar-nav .nav-item a {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     color: #fff;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -712,10 +711,12 @@ p {
 
 .sticky .navbar-nav .nav-item a {
     color: #002147;
+    font-weight: 500;
 }
 
 .sticky .navbar-nav .nav-item.active > a, .sticky .navbar-nav .nav-item:hover > a {
     color: #273981;
+    font-weight: 500;
 }
 
 
@@ -751,7 +752,7 @@ p {
 }
 
 .slider_content .slider_title {
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 700;
     color: #fff;
 }
@@ -761,7 +762,7 @@ p {
 }
 
 .slider_content p {
-    font-size: 32px;
+    font-size: 25px;
     color: #fff;
     margin-top: 20px;
     max-width: 600px;
@@ -1098,7 +1099,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     width: 100%;
     height: 55px;
     padding: 0 25px;
-    border: 1px solid #677284;
+    border: 1px solid #002147;
     border-radius: 5px;
 }
 
@@ -1302,6 +1303,13 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     background-color: #273981;
 }
 
+/*******ĐIỂM MẠNH*******/
+.six-keys-section .main_title {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 .key-box {
     background: #fff;
@@ -1345,9 +1353,14 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-.tuition_area .card .text-primary, .btn-outline-primary {
+.tuition_area .card .text-primary {
     color: #273981 !important;
     border-color: #273981;
+}
+
+.tuition_area .btn-primary {
+    color: #fff;
+    background: #273981;
 }
 
 .tuition_area .card i {
@@ -1362,6 +1375,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 .tuition_area .card ul li {
     margin-bottom: 8px;
     font-size: 16px;
+    color: #002147;
 }
 
 .tuition_area .btn {
@@ -1370,32 +1384,34 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     border-radius: 20px;
 }
 
-.tuition_area .btn-outline-primary:hover {
-    background-color: #273981;
-    color: #fff !important;
+.tuition_area .btn-primary:hover {
+    background-color: #11245e;
+    color: #fff;
 }
 
-.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #273981;
+    background-color: #11245e;
 }
 
 .tuition_area .card .text-muted {
     font-size: 18px;
     padding: 10px 24px;
     font-weight: 500;
+    color: #002147 !important;
 }
 
 .tuition_area .card .fs-5 {
     font-size: 18px !important;
+    font-weight: 500;
 }
 
 
-.tuition_area .highlight-card {
-    border: 2px solid #ffc107;
+/*.tuition_area .highlight-card {
+    border: 1px solid #273981;
     background-color: #fffbea;
     box-shadow: 0 10px 30px rgba(255, 193, 7, 0.15);
-}
+}*/
 
 
 .tuition_area .col-lg-12 {
@@ -1472,7 +1488,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 
 .card-icon i {
-    color: #273981;
+    color: #ffc107;
     font-size: 24px;
 }
 
@@ -1577,6 +1593,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     margin-bottom: 0;
     border-collapse: separate;
     border-spacing: 0;
+    color: #002147 !important;
 }
 
 .table thead th {
@@ -1623,7 +1640,9 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     margin-top: 3px;
     flex-shrink: 0;
 }
-
+.policy-benefits .text-success {
+    color: #ffc107 !important;
+}
 
 .products_content {
     padding-left: 30px;
@@ -1932,7 +1951,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 .testimonial-text p {
     font-size: 16px;
     line-height: 1.8;
-    color: #555;
+    color: #002147;
     font-style: italic;
     position: relative;
 }
@@ -1951,8 +1970,8 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 .user-meta {
     display: flex;
     align-items: center;
-    color: #677284;
-    font-size: 14px;
+    color: #002147;
+    font-size: 16px;
 }
 
 .user-meta .divider {
@@ -2056,7 +2075,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 
 
 .timeline-subtitle {
-    color: #677284;
+    color: #002147;
     font-size: 18px;
     margin-top: 15px;
 }
@@ -2164,7 +2183,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 
 .horizontal-flow-desc {
-    color: #677284;
+    color: #002147;
     margin-bottom: 15px;
     font-size: 16px;
 }
