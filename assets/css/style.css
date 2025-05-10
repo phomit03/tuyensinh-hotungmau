@@ -2317,7 +2317,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 .featured-box {
     background: #fff;
     border-radius: 16px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    /*box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);*/
     padding: 20px;
     text-align: center;
     transition: all 0.3s ease;
@@ -2331,7 +2331,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 .featured-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    /*box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);*/
 }
 .featured-box img {
     width: 100%;
