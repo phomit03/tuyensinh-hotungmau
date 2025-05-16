@@ -2265,7 +2265,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     80% { transform: rotate(5deg); }
 }
 
-.dangky-fixed {
+.register-fixed {
     position: fixed;
     right: 30px;
     bottom: 50px;
@@ -2285,12 +2285,12 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     animation: pulseGlow 3s infinite;
 }
 
-.dangky-fixed i {
+.register-fixed i {
     font-size: 20px;
     animation: shake 2s infinite;
 }
 
-.dangky-fixed:hover {
+.register-fixed:hover {
     background-color: #ffb000;
     transform: translateY(-3px);
     color: #273981;

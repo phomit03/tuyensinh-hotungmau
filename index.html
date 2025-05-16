@@ -307,7 +307,7 @@
                         <li>• Học nửa ngày<p style="color: white"><br>.</p></li>
                     </ul>
                     <div class="fw-bold text-warning fs-5 mb-3">2.300.000 VNĐ/tháng</div>
-                    <a href="http://tuyensinh.hotungmau.edu.vn" class="btn btn-primary">Đăng ký ngay</a>
+                    <a href="http://tuyensinh.hotungmau.edu.vn" class="btn btn-primary btn-tuition">Đăng ký ngay</a>
                 </div>
             </div>
             <!-- Lớp Chất lượng cao -->
@@ -325,7 +325,7 @@
                         </li>
                     </ul>
                     <div class="fw-bold text-warning fs-5 mb-3">2.800.000 VNĐ/tháng</div>
-                    <a href="http://tuyensinh.hotungmau.edu.vn" class="btn btn-primary">Đăng ký ngay</a>
+                    <a href="http://tuyensinh.hotungmau.edu.vn" class="btn btn-primary btn-tuition">Đăng ký ngay</a>
                 </div>
             </div>
             <!-- Lớp Hợp tác Quốc tế (Highlight) -->
@@ -344,7 +344,7 @@
                         </li>
                     </ul>
                     <div class="fw-bold text-warning fs-5 mb-3">4.000.000 VNĐ/tháng</div>
-                    <a href="http://tuyensinh.hotungmau.edu.vn" class="btn btn-primary">Đăng ký ngay</a>
+                    <a href="http://tuyensinh.hotungmau.edu.vn" class="btn btn-primary btn-tuition">Đăng ký ngay</a>
                 </div>
             </div>
         </div>
@@ -959,7 +959,7 @@
 <!--====== BACK TOP TOP PART ENDS ======-->
 
 <!--====== REGISTER ADMISSION START ======-->
-<a href="https://tuyensinh.hotungmau.edu.vn/" class="dangky-fixed" title="Đăng ký tuyển sinh">
+<a href="https://tuyensinh.hotungmau.edu.vn/" class="register-fixed" title="Đăng ký tuyển sinh">
     <i class="fas fa-bell"></i>
     <span>Đăng ký tuyển sinh</span>
 </a>
@@ -1034,6 +1034,41 @@
          src="https://www.facebook.com/tr?id=1871185757031735&ev=PageView&noscript=1"/>
 </noscript>
 <!-- End Meta Pixel Code -->
+
+<!-- Start Event Conversion Facebook Api -->
+<script>
+    // Gửi Lead khi người dùng click vào các nút liên quan đến đăng ký
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll(
+            '.main-btn, .btn-tuition, .horizontal-flow-btn, .register-fixed'
+        ).forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                fbq('track', 'Lead');
+            });
+        });
+    });
+
+    // Gửi ViewContent khi người dùng cuộn tới các section quan trọng
+    let viewedSections = {};
+
+    function trackViewContentOnce(id) {
+        if (!viewedSections[id]) {
+            fbq('track', 'ViewContent', { content_name: id });
+            viewedSections[id] = true;
+        }
+    }
+
+    window.addEventListener('scroll', function () {
+        const sections = ['tuition', 'policy', 'testimonials'];
+        sections.forEach(function (id) {
+            const el = document.getElementById(id);
+            if (el && el.getBoundingClientRect().top < window.innerHeight * 0.75) {
+                trackViewContentOnce(id);
+            }
+        });
+    });
+</script>
+<!-- End Event Conversion Facebook Api -->
 
 </body>
 
