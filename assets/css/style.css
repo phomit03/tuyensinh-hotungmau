@@ -623,6 +623,9 @@ p {
     transition: all 0.3s ease-out 0s;
     padding: 10px 0;
     position: relative;
+
+    /*text-transform: uppercase !important;
+    letter-spacing: 0.5px;*/
 }
 
 .navbar-nav .nav-item a::before {
