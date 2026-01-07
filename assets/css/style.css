@@ -785,13 +785,13 @@ p {
 
 .slider_content .main-btn {
     margin-top: 40px;
-    padding: 5px 30px;
-    font-size: 20px;
-    width: 270px;
+    padding: 5px 30px !important;
+    font-size: 20px !important;
+    width: 270px !important;
     text-transform: uppercase;
     animation: pulseGlow 3s ease-in-out infinite;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 600 !important;
     color: #fff;
     background: linear-gradient(135deg, #f0a123, rgba(255, 193, 7, 0.9));
     border: none;
