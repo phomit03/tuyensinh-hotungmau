@@ -2469,7 +2469,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 
 .student-card {
     background: white;
-    border-radius: 16px;
+    border-radius: 16px 16px 0;
     overflow: hidden;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
