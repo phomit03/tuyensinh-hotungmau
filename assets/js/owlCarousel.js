@@ -35,4 +35,28 @@ $(document).ready(function(){
         }
     });
 
+    $('.activities-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        dots: true,
+        slideBy: 3,
+        autoplay: false,
+        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+        responsive: {
+            0: {
+                items: 1,
+                slideBy: 1
+            },
+            768: {
+                items: 2,
+                slideBy: 2
+            },
+            992: {
+                items: 3,
+                slideBy: 3
+            }
+        }
+    });
 });
+
