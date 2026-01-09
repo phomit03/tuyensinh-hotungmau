@@ -245,7 +245,16 @@
     }
 
     .slider_content .slider_title {
-        font-size: 25px;
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .slider_content .slider_title_sub {
+        font-size: 20px;
+    }
+
+    .slider_content .slider_subtitle {
+        font-size: 20px;
     }
 
     .slider_content p {
