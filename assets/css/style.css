@@ -907,11 +907,11 @@ p {
 
 .sub_title span {
     color: #002147 !important;
-    font-size: 60px !important;
+    font-size: 50px !important;
 }
 
 .about_content .sub_title {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     position: relative;
 }
@@ -955,7 +955,7 @@ p {
 }
 
 .services_content .sub_title {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     position: relative;
 }
@@ -1449,7 +1449,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 
 .tuition_content .sub_title {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     position: relative;
 }
@@ -1585,7 +1585,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 
 .policy_content .sub_title {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     position: relative;
 }
@@ -1679,7 +1679,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 
 .products_content .sub_title {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     position: relative;
 }
@@ -1933,7 +1933,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 
 .testimonials_content .sub_title {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     position: relative;
 }
@@ -2173,7 +2173,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 
 .admission_content .sub_title {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     position: relative;
 }
@@ -2419,7 +2419,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
     background: #f8f9fa;
 }
 #featured-students .products_content .sub_title {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     position: relative;
 }
