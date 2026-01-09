@@ -256,16 +256,16 @@
     }
 
     .slider_content .slider_title {
-        font-size: 30px;
+        font-size: 26px;
         line-height: 25px;
     }
 
     .slider_content .slider_title_sub {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .slider_content .slider_subtitle {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .slider_content p {
